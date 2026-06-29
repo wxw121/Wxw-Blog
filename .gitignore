@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# 本地配图暂存（AI 生成后由 scripts 复制到 image/，勿提交）
+assets/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.cursor/
+
+# 本地计划草稿
+*.plan.md
