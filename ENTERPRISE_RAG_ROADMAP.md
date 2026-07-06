@@ -386,7 +386,7 @@
 |------|------|
 | 后端 | Python FastAPI + PostgreSQL + pgvector 或 Qdrant |
 | 任务队列 | Celery + Redis |
-| 前端 | React + TypeScript + Vite |
+| 前端 | **Next.js App Router**（主教程：[nextjs/README.md](nextjs/README.md)）或 React + Vite（对照：[react/README.md](react/README.md)） |
 | LLM | OpenAI 兼容 API（DeepSeek 等） |
 | 框架 | 先手写 → 再 LangChain；LlamaIndex 对比阅读 |
 
