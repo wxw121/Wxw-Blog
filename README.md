@@ -26,6 +26,7 @@ Python 与后端技术系列教程（中文 Markdown + 配图）。
 | 18 | [TF-IDF 原理](18.tfidf-principles-tutorial.md) |
 | 19 | [BM25 稀疏检索原理](19.bm25-sparse-retrieval-tutorial.md) |
 | 20 | [倒排索引概念](20.inverted-index-tutorial.md) |
+| 21 | [Word2Vec / 静态词向量](21.word2vec-static-embeddings-tutorial.md) |
 
 扩展阅读：[Superpowers + frontend-design 实战](skill/superpowers-frontend-design-web-dev-tutorial.md)
 
