@@ -1,0 +1,13 @@
+# 上下文窗口信息图（第二十八篇）
+
+| 文件 | 布局 | 插入位置 |
+|------|------|----------|
+| `01-window-budget.png` | linear-progression / budget bars | §5 预算图 |
+| `02-overflow-strategies.png` | comparison-matrix / process | §8 超长策略 |
+| `03-rag-vs-longctx.png` | binary-comparison | §7 RAG vs 长上下文 |
+| `04-concept-map.png` | bento-grid | §11 概念地图 |
+
+风格：hand-drawn-edu · 16:9 · 中文  
+Prompt 见 `prompts/`。
+
+说明：本目录目前仅含 prompt 与 README；生成 PNG 后放入同级文件名即可被正文引用。
