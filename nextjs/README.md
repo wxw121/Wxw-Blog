@@ -44,7 +44,7 @@
 | 11 | [检索调试台：top-k 与 score](11.retrieval-debug-console.md) | RAG 排障 | ✅ |
 | 12 | [收官：路由串联与部署概念](12.ship-rag-frontend.md) | 收束 | ✅ |
 
-配图：与 React 系列第二篇起相同，以 mermaid / 表格为主。
+配图：`image/nextjs-01-vite-vs-next/` ～ `image/nextjs-09-citation-ui/`（第 1～9 篇，路径 `../image/...`）。第 10～12 篇以 mermaid / 表格为主。
 
 **前置分档**（详见 [第一篇 §8.3](01.when-next-vs-vite.md)）：
 

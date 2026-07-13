@@ -20,7 +20,7 @@
 | 12 | [TanStack Query：请求缓存与轮询](12.tanstack-query.md) | 工程化 | → [13](13.retrieval-debug-console.md) |
 | 13 | [检索调试台：top-k 与 score](13.retrieval-debug-console.md) | RAG 排障 | 系列收束 |
 
-配图目录：`image/react-javascript/`（仅第一篇）。第二篇起以 mermaid / 表格为主。
+配图：`image/react-javascript/`（第一篇 ES6+）；第 2～9 篇复用 `image/nextjs-*` 同主题信息图（路径 `../image/...`）。第 10～13 篇以 mermaid / 表格为主。
 
 ---
 
