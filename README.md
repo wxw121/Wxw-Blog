@@ -1,15 +1,15 @@
 # Wxw-Blog
 
-企业级 **RAG 全栈工程师** 学习仓库：中文 Markdown 教程 + 配图，覆盖 **上传文档 → 解析分块 → 向量化索引 → 检索问答 → 来源引用 → 可观测可迭代** 完整链路。
+企业级 **RAG 全栈与 AI Agent 工程师** 学习仓库：中文 Markdown 教程 + 配图，覆盖 **上传文档 → 解析分块 → 向量化索引 → 检索问答 → Agent 工具执行 → 可观测可迭代** 完整链路。
 
 | 内容 | 数量 | 说明 |
 |------|------|------|
-| 编号教程 | **213 篇** | 根目录 `1`～`213.*.md`，与 [企业 RAG 路线图](ENTERPRISE_RAG_ROADMAP.md) 模块 A～H 一一对应 |
+| 编号教程 | **254 篇** | `1`～`213` 对应 [企业 RAG 路线图](ENTERPRISE_RAG_ROADMAP.md)，`214`～`254` 对应 [AI Agent 工程路线](AI_AGENT_ENGINEERING_ROADMAP.md) |
 | Next.js 系列 | **12 篇** | RAG 全栈**主栈**前端（App Router） |
 | React 系列 | **13 篇** | Vite 对照路线（含 ES6 前置与工程化延伸） |
 | 配图 | `image/` | 每篇教程配套信息图，维护见 [scripts/README.md](scripts/README.md) |
 
-> **从哪里开始？** 先读 [ENTERPRISE_RAG_ROADMAP.md](ENTERPRISE_RAG_ROADMAP.md) 了解能力画像与分阶段计划，再按模块 A→H 顺序推进；前端实战优先走 [nextjs/README.md](nextjs/README.md)。
+> **从哪里开始？** 先按 [企业 RAG 路线图](ENTERPRISE_RAG_ROADMAP.md) 完成模块 A→H，再进入 [AI Agent 工程路线](AI_AGENT_ENGINEERING_ROADMAP.md)；前端实战优先走 [nextjs/README.md](nextjs/README.md)。
 
 ---
 
@@ -24,6 +24,7 @@
 | 交付可演示的全栈产品 | **F1 + F2**（156～184）+ [Next.js 系列](nextjs/README.md) |
 | 上线、成本与安全 | **G**（185～198） |
 | Senior / 面试加分 | **H**（199～213） |
+| 构建可控、可恢复的 AI Agent | [AI Agent 工程路线](AI_AGENT_ENGINEERING_ROADMAP.md)（214～254） |
 
 ---
 
@@ -40,6 +41,7 @@
 | 4 全栈产品 | 聊天 + 引用 + 管理台 | F2 + [Next.js 1～12](nextjs/README.md) |
 | 5 生产化 | 部署、观测、成本 | G（185～198） |
 | 6 进阶与面试 | Graph RAG / Agentic RAG | H（199～213） |
+| 7 AI Agent 工程 | Tool Calling、Agent Loop、Memory、Workflow、项目实战 | [AI Agent 工程路线](AI_AGENT_ENGINEERING_ROADMAP.md)（214～254） |
 
 ---
 
@@ -57,7 +59,7 @@
 
 ---
 
-## 编号教程目录（213 篇）
+## 企业 RAG 编号教程目录（1～213）
 
 ### A. 基础前置
 
@@ -370,6 +372,12 @@ Graph RAG、Agentic RAG、多模态与微调。
 | 212 | [LoRA 微调领域问答](212.lora-domain-qa-tutorial.md) |
 | 213 | [RLHF / DPO 与 RAG 对齐](213.rlhf-dpo-rag-tutorial.md) |
 
+---
+
+## AI Agent 工程学习路线（214～254）
+
+见 [AI_AGENT_ENGINEERING_ROADMAP.md](AI_AGENT_ENGINEERING_ROADMAP.md)。这条路线衔接现有 RAG 全栈内容，覆盖 Tool Calling、Agent Loop、Planning、Memory、Agentic RAG、Workflow、人类确认、观测评测与安全边界，并以 5 个项目实战收尾。
+
 
 ---
 
@@ -387,8 +395,10 @@ Graph RAG、Agentic RAG、多模态与微调。
 
 ```text
 .
-├── 1～213.*.md              # 编号教程（本 README 目录）
+├── 1～213.*.md               # 企业 RAG 编号教程
+├── 214～254.*.md             # AI Agent 工程编号教程
 ├── ENTERPRISE_RAG_ROADMAP.md # 总路线图与知识点清单
+├── AI_AGENT_ENGINEERING_ROADMAP.md # AI Agent 分阶段路线图
 ├── nextjs/                   # Next.js RAG 前端系列（12 篇）
 ├── react/                    # React/Vite 对照系列（13 篇）
 ├── skill/                    # 扩展技能教程
@@ -410,10 +420,11 @@ Graph RAG、Agentic RAG、多模态与微调。
 - [ ] 阶段 4：全栈产品（F2 + Next.js 系列）
 - [ ] 阶段 5：生产化（G）
 - [ ] 阶段 6：进阶与面试（H）
+- [ ] 阶段 7：AI Agent 工程（214～254）
 
 ---
 
 ## 贡献与维护
 
 - 新增教程后运行 [scripts/](scripts/README.md) 中的 manifest 流程更新配图引用。
-- 教程编号与 [ENTERPRISE_RAG_ROADMAP.md](ENTERPRISE_RAG_ROADMAP.md) 模块保持一致，便于对照 230 条知识点清单。
+- RAG 教程编号与 [ENTERPRISE_RAG_ROADMAP.md](ENTERPRISE_RAG_ROADMAP.md) 模块保持一致；Agent 教程编号与 [AI_AGENT_ENGINEERING_ROADMAP.md](AI_AGENT_ENGINEERING_ROADMAP.md) 保持一致。
