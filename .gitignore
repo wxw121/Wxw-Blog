@@ -19,3 +19,6 @@ Thumbs.db
 
 # 本地计划草稿
 *.plan.md
+
+# Local Git worktrees
+.worktrees/
