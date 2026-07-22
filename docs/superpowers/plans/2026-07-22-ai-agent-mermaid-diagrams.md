@@ -70,9 +70,6 @@ foreach ($taskFile in $taskFiles) {
   foreach ($term in $requiredTerms[$taskFile]) {
     if ($content -notmatch [regex]::Escape($term)) { "$taskFile missing $term" }
   }
-  if ($taskFile -eq '250.build-knowledge-base-agent-tutorial.md' -and $content -match [regex]::Escape('Checkpoint / Trace')) {
-    "$taskFile still combines Checkpoint and Trace"
-  }
 }
 ```
 
@@ -134,9 +131,6 @@ foreach ($taskFile in $taskFiles) {
   foreach ($term in $requiredTerms[$taskFile]) {
     if ($content -notmatch [regex]::Escape($term)) { throw "$taskFile missing $term" }
   }
-  if ($taskFile -eq '250.build-knowledge-base-agent-tutorial.md' -and $content -match [regex]::Escape('Checkpoint / Trace')) {
-    throw "$taskFile still combines Checkpoint and Trace"
-  }
 }
 ```
 
@@ -186,6 +180,9 @@ foreach ($taskFile in $taskFiles) {
   $content = Get-Content -LiteralPath $taskFile -Raw -Encoding UTF8
   foreach ($term in $requiredTerms[$taskFile]) {
     if ($content -notmatch [regex]::Escape($term)) { "$taskFile missing $term" }
+  }
+  if ($taskFile -eq '250.build-knowledge-base-agent-tutorial.md' -and $content -match [regex]::Escape('Checkpoint / Trace')) {
+    "$taskFile still combines Checkpoint and Trace"
   }
 }
 ```
@@ -248,6 +245,9 @@ foreach ($taskFile in $taskFiles) {
   if ($mermaidCount -lt 1) { throw "$taskFile has no Mermaid block" }
   foreach ($term in $requiredTerms[$taskFile]) {
     if ($content -notmatch [regex]::Escape($term)) { throw "$taskFile missing $term" }
+  }
+  if ($taskFile -eq '250.build-knowledge-base-agent-tutorial.md' -and $content -match [regex]::Escape('Checkpoint / Trace')) {
+    throw "$taskFile still combines Checkpoint and Trace"
   }
 }
 ```
