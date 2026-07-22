@@ -35,3 +35,7 @@ Python 与后端技术系列教程（中文 Markdown + 配图）。
 见 [nextjs/README.md](nextjs/README.md)（**RAG 全栈主栈**：Next 十二篇，CRUD + RAG 前端闭环）；[react/README.md](react/README.md)（Vite 对照路线十三篇，含 ES6 前置与工程化延伸）。
 
 配图维护脚本见 [scripts/README.md](scripts/README.md)。
+
+## AI Agent 工程学习路线
+
+见 [AI_AGENT_ENGINEERING_ROADMAP.md](AI_AGENT_ENGINEERING_ROADMAP.md)。这条路线衔接现有 RAG 全栈内容，重点学习 Tool Calling、Agent Loop、Memory、Agentic RAG、Workflow、人类确认、观测评测与安全边界。
